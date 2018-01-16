@@ -38,12 +38,7 @@ library
                       , containers >= 0.4.0.0
                       , array >= 0.4
 
-  ghc-options:        -Wall
-                      -fno-warn-unused-binds
-                      -fno-warn-unused-do-bind
-                      -fno-warn-unused-imports
-                      -fno-warn-type-defaults
-                      -ferror-spans
+  ghc-options:        -Wall                      
 
   default-extensions: NoImplicitPrelude
                       ScopedTypeVariables
