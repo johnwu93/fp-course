@@ -3,6 +3,7 @@ import Course.ApplicativeTest (test_Applicative)
 import Course.ComonadTest (test_Comonad)
 import Course.ExtendTest (test_Extend)
 import Course.FunctorTest (test_Functor)
+import Course.ParserTest (test_Parser)
 import Course.JsonParserTest (test_JsonParser)
 import Course.ListTest (test_List)
 import Course.MonadTest (test_Monad)
@@ -27,6 +28,7 @@ tests =
   , test_Validation
   , test_Extend
   , test_Comonad
+  , test_Parser
   , test_JsonParser
   ]
 
