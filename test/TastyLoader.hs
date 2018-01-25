@@ -11,6 +11,7 @@ import Course.OptionalTest (test_Optional)
 import Course.StateTest (test_State)
 import Course.StateTTest (test_StateT)
 import Course.ValidationTest (test_Validation)
+import Course.MoreParserTest (test_MoreParser)
 
 main :: IO ()
 main = defaultMain tests
@@ -29,6 +30,7 @@ tests =
   , test_Extend
   , test_Comonad
   , test_Parser
-  , test_JsonParser
+  , test_MoreParser
+--  , test_JsonParser
   ]
 
