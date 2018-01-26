@@ -31,6 +31,6 @@ tests =
   , test_Comonad
   , test_Parser
   , test_MoreParser
---  , test_JsonParser
+  , test_JsonParser
   ]
 
